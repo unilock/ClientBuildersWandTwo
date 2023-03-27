@@ -10,8 +10,8 @@ import rocks.katiekatiekatie.clientbuilderswandtwo.Constants;
 @Environment(EnvType.CLIENT)
 public class RegisterKeys {
     public static void init() {
-        String categoryString = "key.clientbuilderswand.category";
-        String nameString = "key.clientbuilderswand.";
+        String categoryString = "clientbuilderswandtwo.key.category";
+        String nameString = "clientbuilderswandtwo.key.";
 
         Constants.toggleWand = new KeyBinding(nameString + "toggleWand", GLFW.GLFW_KEY_V, categoryString);
         Constants.openMenu = new KeyBinding(nameString + "settings", GLFW.GLFW_KEY_I, categoryString);
