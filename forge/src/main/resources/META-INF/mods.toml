@@ -1,0 +1,40 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "MIT"
+#issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]]
+modId = "clientbuilderswandtwo"
+version = "${version}"
+
+displayName = "Client Builder's Wand 2.0"
+#displayURL="http://example.com/"
+logoFile = "icon.png"
+authors = "kate, waechter_von_atlantis"
+description = '''
+Client-side mod to allow building as if you had a "Builder's Wand" from [insert mod here]
+
+Rewrite of "Client Builders Wand" by waechter_von_atlantis (licensed under the MIT License)
+https://www.curseforge.com/minecraft/mc-mods/client-builders-wand
+'''
+
+[[dependencies.clientbuilderswandtwo]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.clientbuilderswandtwo]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.clientbuilderswandtwo]]
+modId = "architectury"
+mandatory = true
+versionRange = "[6.0.0,)"
+ordering = "NONE"
+side = "BOTH"
