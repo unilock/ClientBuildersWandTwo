@@ -1,4 +1,4 @@
-package cc.unilock.clientbuilderswandtwo.config;
+package cc.unilock.clientbuilderswand.config;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

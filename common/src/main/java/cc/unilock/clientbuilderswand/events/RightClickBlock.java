@@ -1,7 +1,7 @@
-package cc.unilock.clientbuilderswandtwo.events;
+package cc.unilock.clientbuilderswand.events;
 
-import cc.unilock.clientbuilderswandtwo.Constants;
-import cc.unilock.clientbuilderswandtwo.config.ModConfig;
+import cc.unilock.clientbuilderswand.Constants;
+import cc.unilock.clientbuilderswand.config.ModConfig;
 import dev.architectury.event.EventResult;
 import dev.architectury.event.events.common.InteractionEvent;
 import net.fabricmc.api.EnvType;

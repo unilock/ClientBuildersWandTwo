@@ -4,7 +4,7 @@ license = "MIT"
 issueTrackerURL="https://github.com/unilock/ClientBuildersWandTwo/issues"
 
 [[mods]]
-modId = "clientbuilderswandtwo"
+modId = "clientbuilderswand"
 version = "${version}"
 
 displayName = "Client Builder's Wand 2.0"
@@ -18,21 +18,21 @@ Rewrite of "Client Builders Wand" by waechter_von_atlantis (licensed under the M
 https://www.curseforge.com/minecraft/mc-mods/client-builders-wand
 '''
 
-[[dependencies.clientbuilderswandtwo]]
+[[dependencies.clientbuilderswand]]
 modId = "forge"
 mandatory = true
 versionRange = "[45,)"
 ordering = "NONE"
 side = "CLIENT"
 
-[[dependencies.clientbuilderswandtwo]]
+[[dependencies.clientbuilderswand]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.19.4,)"
 ordering = "NONE"
 side = "CLIENT"
 
-[[dependencies.clientbuilderswandtwo]]
+[[dependencies.clientbuilderswand]]
 modId = "architectury"
 mandatory = true
 versionRange = "[8.1.0,)"

@@ -1,7 +1,7 @@
-package cc.unilock.clientbuilderswandtwo.events;
+package cc.unilock.clientbuilderswand.events;
 
-import cc.unilock.clientbuilderswandtwo.ClientBuildersWandTwo;
-import cc.unilock.clientbuilderswandtwo.Constants;
+import cc.unilock.clientbuilderswand.ClientBuildersWand;
+import cc.unilock.clientbuilderswand.Constants;
 import dev.architectury.event.EventResult;
 import dev.architectury.event.events.client.ClientRawInputEvent;
 import net.fabricmc.api.EnvType;
@@ -16,20 +16,20 @@ import org.lwjgl.glfw.GLFW;
 public class ClientKeyPressed {
     public static void init() {
         ClientRawInputEvent.KEY_PRESSED.register((client, screen, keyCode, scanCode, modifiers) -> {
-            MutableText on = Text.translatable("clientbuilderswandtwo.on")
+            MutableText on = Text.translatable("clientbuilderswand.on")
                                  .setStyle(Style.EMPTY.withFormatting(Formatting.DARK_GREEN));
 
-            MutableText off = Text.translatable("clientbuilderswandtwo.off")
+            MutableText off = Text.translatable("clientbuilderswand.off")
                                   .setStyle(Style.EMPTY.withFormatting(Formatting.DARK_RED));
 
             if (keyCode != GLFW.GLFW_KEY_ESCAPE) {
                 if (Constants.openMenu.isPressed()) {
-                    client.setScreen(ClientBuildersWandTwo.configScreen);
+                    client.setScreen(ClientBuildersWand.configScreen);
                 }
 
                 if (Constants.toggleWand.isPressed()) {
                     Constants.wandEnabled = !Constants.wandEnabled;
-                    client.player.sendMessage(Text.translatable("clientbuilderswandtwo.wand").append(": ").append(Constants.wandEnabled ? on : off), true);
+                    client.player.sendMessage(Text.translatable("clientbuilderswand.wand").append(": ").append(Constants.wandEnabled ? on : off), true);
                 }
             }
 

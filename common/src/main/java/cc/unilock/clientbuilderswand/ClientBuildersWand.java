@@ -1,18 +1,18 @@
-package cc.unilock.clientbuilderswandtwo;
+package cc.unilock.clientbuilderswand;
 
-import cc.unilock.clientbuilderswandtwo.config.MidnightConfig;
-import cc.unilock.clientbuilderswandtwo.config.ModConfig;
-import cc.unilock.clientbuilderswandtwo.events.ClientKeyPressed;
-import cc.unilock.clientbuilderswandtwo.events.ClientTickPost;
-import cc.unilock.clientbuilderswandtwo.events.RegisterKeys;
-import cc.unilock.clientbuilderswandtwo.events.RightClickBlock;
+import cc.unilock.clientbuilderswand.config.MidnightConfig;
+import cc.unilock.clientbuilderswand.config.ModConfig;
+import cc.unilock.clientbuilderswand.events.ClientKeyPressed;
+import cc.unilock.clientbuilderswand.events.ClientTickPost;
+import cc.unilock.clientbuilderswand.events.RegisterKeys;
+import cc.unilock.clientbuilderswand.events.RightClickBlock;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.gui.screen.Screen;
 
 @Environment(EnvType.CLIENT)
-public class ClientBuildersWandTwo {
-    public static final String MOD_ID = "clientbuilderswandtwo";
+public class ClientBuildersWand {
+    public static final String MOD_ID = "clientbuilderswand";
 
     public static Screen configScreen;
 

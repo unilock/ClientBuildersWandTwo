@@ -1,4 +1,4 @@
-package cc.unilock.clientbuilderswandtwo.config;
+package cc.unilock.clientbuilderswand.config;
 
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;
