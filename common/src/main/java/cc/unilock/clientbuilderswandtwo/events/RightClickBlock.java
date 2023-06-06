@@ -1,5 +1,7 @@
-package rocks.katiekatiekatie.clientbuilderswandtwo.events;
+package cc.unilock.clientbuilderswandtwo.events;
 
+import cc.unilock.clientbuilderswandtwo.Constants;
+import cc.unilock.clientbuilderswandtwo.config.ModConfig;
 import dev.architectury.event.EventResult;
 import dev.architectury.event.events.common.InteractionEvent;
 import net.fabricmc.api.EnvType;
@@ -16,8 +18,6 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.Vec3d;
-import rocks.katiekatiekatie.clientbuilderswandtwo.Constants;
-import rocks.katiekatiekatie.clientbuilderswandtwo.config.ModConfig;
 
 import java.util.ArrayList;
 

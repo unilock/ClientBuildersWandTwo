@@ -1,14 +1,14 @@
-package rocks.katiekatiekatie.clientbuilderswandtwo;
+package cc.unilock.clientbuilderswandtwo;
 
+import cc.unilock.clientbuilderswandtwo.config.MidnightConfig;
+import cc.unilock.clientbuilderswandtwo.config.ModConfig;
+import cc.unilock.clientbuilderswandtwo.events.ClientKeyPressed;
+import cc.unilock.clientbuilderswandtwo.events.ClientTickPost;
+import cc.unilock.clientbuilderswandtwo.events.RegisterKeys;
+import cc.unilock.clientbuilderswandtwo.events.RightClickBlock;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.gui.screen.Screen;
-import rocks.katiekatiekatie.clientbuilderswandtwo.config.MidnightConfig;
-import rocks.katiekatiekatie.clientbuilderswandtwo.config.ModConfig;
-import rocks.katiekatiekatie.clientbuilderswandtwo.events.ClientKeyPressed;
-import rocks.katiekatiekatie.clientbuilderswandtwo.events.ClientTickPost;
-import rocks.katiekatiekatie.clientbuilderswandtwo.events.RegisterKeys;
-import rocks.katiekatiekatie.clientbuilderswandtwo.events.RightClickBlock;
 
 @Environment(EnvType.CLIENT)
 public class ClientBuildersWandTwo {

@@ -1,9 +1,9 @@
-package rocks.katiekatiekatie.clientbuilderswandtwo.forge;
+package cc.unilock.clientbuilderswandtwo.forge;
 
 import dev.architectury.platform.forge.EventBuses;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import rocks.katiekatiekatie.clientbuilderswandtwo.ClientBuildersWandTwo;
+import cc.unilock.clientbuilderswandtwo.ClientBuildersWandTwo;
 
 @Mod(ClientBuildersWandTwo.MOD_ID)
 public class ClientBuildersWandTwoForge {

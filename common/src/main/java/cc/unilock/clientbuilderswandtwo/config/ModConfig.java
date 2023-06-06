@@ -1,4 +1,4 @@
-package rocks.katiekatiekatie.clientbuilderswandtwo.config;
+package cc.unilock.clientbuilderswandtwo.config;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

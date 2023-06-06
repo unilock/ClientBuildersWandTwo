@@ -1,14 +1,16 @@
-package rocks.katiekatiekatie.clientbuilderswandtwo.events;
+package cc.unilock.clientbuilderswandtwo.events;
 
+import cc.unilock.clientbuilderswandtwo.ClientBuildersWandTwo;
+import cc.unilock.clientbuilderswandtwo.Constants;
 import dev.architectury.event.EventResult;
 import dev.architectury.event.events.client.ClientRawInputEvent;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import net.minecraft.text.*;
+import net.minecraft.text.MutableText;
+import net.minecraft.text.Style;
+import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import org.lwjgl.glfw.GLFW;
-import rocks.katiekatiekatie.clientbuilderswandtwo.ClientBuildersWandTwo;
-import rocks.katiekatiekatie.clientbuilderswandtwo.Constants;
 
 @Environment(EnvType.CLIENT)
 public class ClientKeyPressed {

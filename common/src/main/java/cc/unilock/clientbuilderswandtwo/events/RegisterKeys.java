@@ -1,11 +1,11 @@
-package rocks.katiekatiekatie.clientbuilderswandtwo.events;
+package cc.unilock.clientbuilderswandtwo.events;
 
+import cc.unilock.clientbuilderswandtwo.Constants;
 import dev.architectury.registry.client.keymappings.KeyMappingRegistry;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.option.KeyBinding;
 import org.lwjgl.glfw.GLFW;
-import rocks.katiekatiekatie.clientbuilderswandtwo.Constants;
 
 @Environment(EnvType.CLIENT)
 public class RegisterKeys {

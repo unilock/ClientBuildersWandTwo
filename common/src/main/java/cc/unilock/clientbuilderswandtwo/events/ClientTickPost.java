@@ -1,12 +1,12 @@
-package rocks.katiekatiekatie.clientbuilderswandtwo.events;
+package cc.unilock.clientbuilderswandtwo.events;
 
+import cc.unilock.clientbuilderswandtwo.Constants;
+import cc.unilock.clientbuilderswandtwo.config.ModConfig;
 import dev.architectury.event.events.client.ClientTickEvent;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
-import rocks.katiekatiekatie.clientbuilderswandtwo.Constants;
-import rocks.katiekatiekatie.clientbuilderswandtwo.config.ModConfig;
 
 @Environment(EnvType.CLIENT)
 public class ClientTickPost {

@@ -1,16 +1,16 @@
 modLoader = "javafml"
 loaderVersion = "[45,)"
 license = "MIT"
-#issueTrackerURL="http://my.issue.tracker/" #optional
+issueTrackerURL="https://github.com/unilock/ClientBuildersWandTwo/issues"
 
 [[mods]]
 modId = "clientbuilderswandtwo"
 version = "${version}"
 
 displayName = "Client Builder's Wand 2.0"
-#displayURL="http://example.com/"
+displayURL="https://github.com/unilock/ClientBuildersWandTwo"
 logoFile = "icon.png"
-authors = "kate, waechter_von_atlantis"
+authors = "unilock, waechter_von_atlantis"
 description = '''
 Client-side mod to allow building as if you had a "Builder's Wand" from [insert mod here]
 
@@ -23,18 +23,18 @@ modId = "forge"
 mandatory = true
 versionRange = "[45,)"
 ordering = "NONE"
-side = "BOTH"
+side = "CLIENT"
 
 [[dependencies.clientbuilderswandtwo]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.19.4,)"
 ordering = "NONE"
-side = "BOTH"
+side = "CLIENT"
 
 [[dependencies.clientbuilderswandtwo]]
 modId = "architectury"
 mandatory = true
-versionRange = "[8.0.0,)"
+versionRange = "[8.1.0,)"
 ordering = "NONE"
-side = "BOTH"
+side = "CLIENT"

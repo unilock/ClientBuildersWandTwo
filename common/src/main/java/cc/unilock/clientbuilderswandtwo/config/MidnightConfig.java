@@ -1,4 +1,4 @@
-package rocks.katiekatiekatie.clientbuilderswandtwo.config;
+package cc.unilock.clientbuilderswandtwo.config;
 
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;

@@ -5,22 +5,23 @@
   "name": "Client Builder's Wand 2.0",
   "description": "Client-side mod to allow building as if you had a \"Builder's Wand\" from [insert mod here]\n\nRewrite of \"Client Builders Wand\" by waechter_von_atlantis (licensed under the MIT License)\nhttps://www.curseforge.com/minecraft/mc-mods/client-builders-wand",
   "authors": [
-    "kate"
+    "unilock",
+    "waechter_von_atlantis"
   ],
   "contact": {
-    "sources": ""
+    "sources": "https://github.com/unilock/ClientBuildersWandTwo"
   },
   "license": "MIT",
   "icon": "icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "rocks.katiekatiekatie.clientbuilderswandtwo.fabric.ClientBuildersWandTwoFabric"
+    "client": [
+      "cc.unilock.clientbuilderswandtwo.fabric.ClientBuildersWandTwoFabric"
     ]
   },
   "depends": {
-    "fabricloader": ">=0.14.18",
+    "fabricloader": ">=0.14.0",
     "minecraft": ">=1.19.4",
-    "architectury": ">=8.0.0"
+    "architectury": ">=8.1.0"
   }
 }
